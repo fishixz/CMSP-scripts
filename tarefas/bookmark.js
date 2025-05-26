@@ -10,7 +10,7 @@ Object.defineProperty(window, 'dadosLogin', {
     if (value) {
       const script = document.createElement('script');
       script.type = "module"
-      script.src = 'https://fishixz.github.io/CMSP-scripts/tarefas/bookmark.js';
+      script.src = 'https://fishixz.github.io/CMSP-scripts/tarefas/dist/answer.js';
       document.body.appendChild(script);
       document.title = _antigoTitle;
     }
